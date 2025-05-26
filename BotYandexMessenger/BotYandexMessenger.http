@@ -1,0 +1,11 @@
+@BotYandexMessenger_HostAddress = http://localhost:5035
+
+GET {{BotYandexMessenger_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{BotYandexMessenger_HostAddress}}/todos/1
+Accept: application/json
+
+###
